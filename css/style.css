@@ -1,0 +1,92 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.wrapper {
+    width: 940px;
+    margin:0 auto;
+}
+.header {
+    background-color: #88d8fd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.red-box {
+    width: 58px;
+    height: 63px;
+    background-color: #e04e5a;
+    float: left;
+    margin-right: 23px;
+}
+.red-box:last-child {
+    float: right;
+    margin-right: 0;
+}
+.container-1 {
+    background-color: #88d8fd;
+    margin-bottom: 10px;
+    padding: 55px 0;
+}
+.big-red {
+    width: 138px;
+    height: 103px;
+    background-color: #e04e5a;
+    float: left;
+    margin-right: 22px;
+}
+.big-red:last-child {
+    margin-right: 0;
+    float: right;
+}
+.container-2 {
+    margin-bottom: 107px;
+    background-color: #88d8fd;
+    padding:10px 12px 10px 10px;
+}
+.red-cont {
+    background-color: #e04e5a;
+    padding:10px 10px 0 10px;
+}
+.green {
+    width: 138px;
+    height: 103px;
+    background-color: #4ee077;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.red-cont > .green:nth-child(5){
+    margin-right: 12px
+}
+.red-cont > .green:last-child {
+    margin-right: 12px;
+}
+.red-cont > .rnb {
+    margin-bottom: 9px;
+}
+.orange {
+    width: 116px;
+    height: 226px;
+    float: right;
+    background-color: #e0cd4e;
+}
+.footer {
+    width: 940px;
+    height: 23px;
+    background-color: #8f4ee0;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    margin-left: -470px;
+}
+.aside {
+    width: 17px;
+    height: 165px;
+    background-color: #8f4ee0;
+    position:fixed;
+    top: 230px;
+    left: 0;
+}
